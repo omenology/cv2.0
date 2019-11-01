@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+    margin-bottom: 240px; 
+   
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: ghostwhite; 
+  box-shadow: inset 0 0 5px grey; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ffc01b;
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #292513; 
+}
+
+#spybar {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    background-color: #232323;
+    display: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu > a {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0 5px;
+    color: ghostwhite;
+}
+
+.menu > a:hover {
+    outline :#eccc35 2px solid;
+    outline-style:auto;
+}
+
+.activebtn{
+    background-color: ghostwhite;
+    color: #232323 !important;
+}
+
+.banner img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.banner {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#banner {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#banner div {
+    position: absolute;
+    top: 0;
+    transform: translateY(0px);
+    background-position: center bottom !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100vh;
+}
+
+#profile {
+    background-color: #292513;
+    color: ghostwhite;
+}
+
+#profile .tentang-saya a {
+    color: ghostwhite;
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+#experience {
+    background-color: #eccc35;
+    color: #232323;
+}
+
+#experience .border-bottom {
+    border-color: #232323 !important; 
+}
+
+#experience img {
+    width: 70%;
+    margin: 10px;
+}
+
+#experience p {
+    margin: 0;
+}
+
+#abilitie {
+    background-color: #dfddc7;
+    color: #633220;
+}
+
+#abilitie .border-bottom {
+    border-color: #633220 !important; 
+}
+
+#abilitie i {
+    transition: 0.15s;
+    transition-timing-function: ease;
+}
+
+#abilitie .list-kemampuan:hover i{
+    margin-left: 2px;
+}
+
+#projects {
+    background-color: ghostwhite;
+    color: #232323;
+}
+
+#projects img{
+    width: 100%;
+}
+
+#projects section{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: #ffe672db;
+    text-align: center;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.15s;
+    transition-timing-function: ease;
+}
+
+#projects .gotosite{
+    position: absolute;
+    background-color: #ffe672db;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    padding: 3px 13px;
+    border-radius: 10px;
+    color: #232323;
+    opacity: 0;
+    transition: 0.15s;
+    transition-timing-function: ease;
+}
+
+#projects .gotosite:hover{
+    color: ghostwhite;
+}
+
+#projects .item-projects:hover section, #projects .item-projects:hover .gotosite{
+    opacity: 1;
+}
+
+#projects .btn-lainnya {
+    font-size: 2rem;
+    color: #232323;
+    background-color: ghostwhite;
+}
+
+#projects .btn-lainnya:hover {
+    color: ghostwhite;
+    background-color: #232323;
+
+}
+
+#contact {
+    height: 240px;
+    z-index: -1;
+    color: ghostwhite;
+    background-color: #232323;
+}
+
+#contact a {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+#copyright {
+    background-color: #eccc35;
+    z-index: -1;
+}
+
+#copyright p {
+    color: #232323;
+}
