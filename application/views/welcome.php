@@ -85,8 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<p>September 2019 - Nopember 2019</p>
 				</div>
 				<div class="col-8 col-md-7">
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p class="text-justify">STAR SHARE adalah sebuah holding company yang mengelola dan mengendalikan berbagai jenis anak usaha yang telah di bangun nya. dan ini adalah pengalaman magang pertama saya semenjak masuk di jursan Teknik Informatika, dan yang saya kerjakan di sini lebih ke perbaikan web dan internet marketing.</p>
 				</div>
 			</div>
 		</div>
