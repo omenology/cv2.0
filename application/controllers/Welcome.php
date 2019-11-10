@@ -12,9 +12,10 @@ class Welcome extends CI_Controller {
 		$data['pendidikan'] = $this->cv->getPendidikan();
 		$data['kemampuan'] = $this->cv->getKemampuan();
 		$data['project'] = $this->cv->getProject();
-		
+
 		$this->load->view('templates/header', $data);
-		$this->load->view('welcome', $data);
+		$this->load->view('welcome/welcome', $data);
 		$this->load->view('templates/footer');
+		$this->load->view('welcome/templates/scriptWelcome');
 	}
 }

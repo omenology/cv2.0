@@ -1,15 +1,16 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <!DOCTYPE html>
 <html>
-	<head>
-		<title><?=$judul ?></title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="seseorang yang ingin jadi Programer Profesional khusunya dalam bidang Web developer dan ini CV nya.">
-		<meta name="keywords" content="HTML,CSS,JSON,JavaScript,PHP">
-  		<meta name="author" content="Ikbal Lukmanul Hakim">
-		<link rel="icon" href="<?=base_url() ?>assets/img/favicon.ico">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-		<link rel="stylesheet" type="text/css" href="<?=base_url() ?>assets/css/style.css">
-	</head>
-	<body>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="seseorang yang ingin jadi Programer Profesional khusunya dalam bidang Web developer dan ini CV nya.">
+      <meta name="keywords" content="HTML,CSS,JSON,JavaScript,PHP">
+      <meta name="author" content="Ikbal Lukmanul Hakim">
+      <title><?=$judul ?></title>
+      <link rel="icon" href="<?=base_url() ?>assets/img/favicon.ico">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+      <link rel="stylesheet" type="text/css" href="<?=base_url() ?>assets/css/bootstrap.min.css">

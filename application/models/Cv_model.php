@@ -8,7 +8,7 @@ class Cv_model extends CI_Model {
 	public function __construct(){
 		$this->client = new Client([
 			'base_uri' => 'http://api.ikballukmanulhakim.id/api/cv/',
-			'auth' => ['enggakdong','jugaenggak']
+			'auth' => ['enggakdong','enggakdong']
 		]);
 	}
 
